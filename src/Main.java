@@ -6,7 +6,9 @@ public class Main {
         for (int n=0;n<5;n++)
             reversed[0+n] = original[4-n];
 
+        System.out.print("Reversed:");
+
         for (int i=0;i<original.length;i++)
-        System.out.println(reversed[i] + " ");
+        System.out.print(reversed[i] + " ");
     }
 }
